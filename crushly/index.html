@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUSHLY ❤️ | Meet Your Crush</title>
+  <meta name="description" content="CRUSHLY — Meet new people, find matches, and discover love. Free registration and browsing, with affordable premium features.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff7fb;
+      color: #292033;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 8%;
+      background: white;
+      box-shadow: 0 2px 15px #0000000a;
+    }
+
+    .logo {
+      color: #e83275;
+      font-size: 30px;
+      font-weight: 900;
+    }
+
+    nav a {
+      color: #292033;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+      background: linear-gradient(135deg, #ffe0ed, #eee1ff);
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 7vw, 65px);
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #e83275;
+    }
+
+    .hero p {
+      font-size: 18px;
+      line-height: 1.7;
+      max-width: 650px;
+      margin: 0 auto 28px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 6px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .primary {
+      background: #e83275;
+      color: white;
+    }
+
+    .secondary {
+      background: white;
+      color: #e83275;
+    }
+
+    section {
+      padding: 65px 8%;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      color: #766b7c;
+      margin-bottom: 35px;
+      line-height: 1.6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+      max-width: 1050px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 30px 22px;
+      border-radius: 18px;
+      box-shadow: 0 5px 25px #4d17400c;
+    }
+
+    .icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #766b7c;
+      line-height: 1.6;
+    }
+
+    .pricing {
+      background: #fff;
+    }
+
+    .price {
+      font-size: 32px;
+      color: #e83275;
+      font-weight: bold;
+      margin: 18px 0;
+    }
+
+    .free-label {
+      color: #17854d;
+      font-size: 25px;
+      font-weight: bold;
+      margin: 18px 0;
+    }
+
+    .paid {
+      border: 2px solid #f6c0d5;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #ffe1ed;
+      color: #c51e61;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      background: #292033;
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+      line-height: 2;
+    }
+
+    footer a {
+      color: #ff9dc3;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 18px;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 8px 0 0;
+        font-size: 14px;
+      }
+
+      .hero {
+        padding: 65px 18px;
+      }
+
+      section {
+        padding: 50px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">❤️ CRUSHLY</div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#join">Join Us</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="join">
+    <h1>Meet Your Crush.<br><span>Find Your Love.</span> ❤️</h1>
+    <p>
+      Meet new people, discover meaningful connections, and start your
+      next love story with CRUSHLY. Create your account and explore for free!
+    </p>
+    <a href="#pricing" class="button primary">Explore Memberships ❤️</a>
+    <a href="#features" class="button secondary">Discover CRUSHLY</a>
+  </section>
+
+  <section id="features">
+    <h2>Love Starts With a Connection 💕</h2>
+    <p class="subtitle">Discover people and connect at your own pace.</p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon">🆓</div>
+        <h3>Free Registration</h3>
+        <p>Create your account and build your dating profile for free.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">👀</div>
+        <h3>Browse Profiles</h3>
+        <p>Explore profiles and discover people who interest you for free.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">💬</div>
+        <h3>20 Free Messages</h3>
+        <p>Start conversations with your first 20 free messages.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔒</div>
+        <h3>Safety Matters</h3>
+        <p>We aim to support a respectful dating community with privacy and reporting tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <h2>CRUSHLY Membership & Pricing 💎</h2>
+    <p class="subtitle">Start for free. Upgrade when you're ready for more.</p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="badge">FREE PLAN</div>
+        <h3>Free Account</h3>
+        <div class="free-label">KSh 0</div>
+        <p>✓ Free registration</p>
+        <p>✓ Browse profiles</p>
+        <p>✓ Create your profile</p>
+        <p>✓ First 20 messages</p>
+        <a href="#join" class="button secondary">Get Started</a>
+      </div>
+
+      <div class="card paid">
+        <div class="badge">PAY PER SESSION</div>
+        <h3>📹 Video Call</h3>
+        <div class="price">KSh 130</div>
+        <p>✓ 10-minute call access</p>
+        <p>✓ Connect face-to-face</p>
+        <p>✓ Payment required</p>
+        <a href="#join" class="button primary">Video Call Access</a>
+      </div>
+
+      <div class="card paid">
+        <div class="badge">MONTHLY PLAN</div>
+        <h3>💬 Unlimited Messaging</h3>
+        <div class="price">KSh 300<span style="font-size:14px">/month</span></div>
+        <p>✓ Unlimited messaging</p>
+        <p>✓ Keep conversations going</p>
+        <p>✓ One-month subscription</p>
+        <a href="#join" class="button primary">Choose Messaging</a>
+      </div>
+
+      <div class="card paid">
+        <div class="badge">PREMIUM MEMBERSHIP</div>
+        <h3>💎 CRUSHLY Premium</h3>
+        <div class="price">KSh 500<span style="font-size:14px">/month</span></div>
+        <p>✓ Unlimited messaging</p>
+        <p>✓ See who likes you</p>
+        <p>✓ Advanced discovery filters</p>
+        <p>✓ Priority profile visibility</p>
+        <p>✓ Ad-free browsing</p>
+        <a href="#join" class="button primary">Go Premium</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Your Next Love Story Starts Here ❤️</h2>
+    <p class="subtitle">
+      Join CRUSHLY to discover new connections, meaningful conversations,
+      and exciting possibilities.
+    </p>
+    <a href="#join" class="button primary">Join CRUSHLY</a>
+  </section>
+</main>
+
+<footer>
+  <h2>❤️ CRUSHLY</h2>
+  <p>Meet Your Crush. Find Your Love.</p>
+  <p>18+ only. Respect others and protect your privacy.</p>
+  <p>© <span id="year"></span> CRUSHLY. All rights reserved.</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
